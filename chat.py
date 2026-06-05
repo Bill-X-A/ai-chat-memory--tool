@@ -3,7 +3,7 @@ from zhipuai import ZhipuAI
 
 client = ZhipuAI(api_key=st.secrets["ZHIPU_API_KEY"])
 
-st.title("🤖 AI 助手")
+st.title("👑 谢鹏辉大王")
 
 # 初始化对话历史
 if "messages" not in st.session_state:
